@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Roboto:wght@500&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html {
+box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+box-sizing: inherit;
+}
+body {
+margin: 0;
+background-color: white;
+
+}
+img {
+max-width: 100%; 
+height: auto;
+}
+body{
+    height: 1000px;
+}
+
+.boshqism{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+}
+.html{
+    width: 80px;
+    height: auto;
+    margin-left: 80px;
+}
+.linklar{
+    margin: 20px    ;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Dots', cursive;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+input{
+    border: none;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: black ;
+    /* font-size: 35px; */
+}
+
+::placeholder{
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+i{
+    color: white;
+    /* margin: 20px; */
+    font-size: 25px;
+}
+.logo{
+    margin-left: 20px   ;
+    border-left: 2px solid gray;
+    padding: 15px;
+}
+.zona{
+    width: 370px;
+    height: 70px;
+    /* padding: 10px; */
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center ;
+    background-color: black;
+    border-radius: 70px;
+}
+
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 85px;
+    width: 490px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    width: 700px;
+    background-image: url(3-2-pepper-picture\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 90px;
+}
+.xat{
+    margin-left: 300px;
+}
+p{
+    width: 450px;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;  
+    color: gray ;
+}
+.addcard i{
+    
+}
+.addcard{
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin-left: 90px;
+    border-radius: 30px;
+}
+.cart{
+    background-color: rgb(255, 196, 0);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: black;
+}
+span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.plus{
+    display: flex;
+    align-items: center;
+}
+.num{
+    display: flex;
+    margin-left: 60px;
+}
+.num i{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 198, 198);
+    border-radius: 50px;
+    color: black;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 0px 1px 10px 4px gray;
+}
+.machos{
+    width: 600px;
+    padding-right: 0px;
+}
+.center{
+    display: flex   ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.macho{
+    width: 350px;
+    
+    /* box-shadow:  0px 1px 30px 4px gray ; */
+    
+}
+.mini{
+   display: flex;
+   width: 250px;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   /* font-size: 30px; */
+}
+.minin{
+    width: 250px;   
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.chil{
+    width: 90px;
+    height: auto;
+}
+.mar{
+    margin-right: 50px;
+}
+.mini .foto{
+    width: auto;
+}
+.chili{
+    width: 50px;
+    height: auto;
+}
+.yozuv{
+    margin-left: 0px;
+    margin: auto;
+}
+h5{
+    font-size: 25px;
+    margin: auto;
+    /* margin-left: 20px; */
+    /* display: inline-block; */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    /* background-image: url(Ellipse\ 6.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+}
+
+.back{
+    display: inline-block;
+    width: 1700px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 14.4%;
+}
